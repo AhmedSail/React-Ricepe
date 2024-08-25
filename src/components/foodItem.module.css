@@ -1,0 +1,38 @@
+.box {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: Polysans, sans-serif;
+  margin: 30px;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.txt {
+  font-size: 1em;
+  font-weight: 600;
+  color: #393e46;
+}
+.btn {
+  margin: 0 auto;
+  background-color: #29bb89;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btnContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
